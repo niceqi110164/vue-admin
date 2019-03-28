@@ -4,11 +4,11 @@ import { getToken, setToken, removeToken } from '../../utils/auth.js'
 import {loginByUsername,getUserInfo,logout} from '../../api/login.js'
 const user = {
     state:{
-        user:'xiaoqi',
+        user:'',
         status:'',
         code:'',
         token:getToken(),
-        name:'lalaxiaoqi',
+        name:'',
         avatar:'',
         introduction:'',
         roles:[],

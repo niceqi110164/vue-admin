@@ -198,7 +198,7 @@ export const asyncRoutes = [
                 meta: { title: 'tab', icon: 'tab' }
             }
         ]
-    },
+    },*/
     {
         path: '/error',
         component: Layout,
@@ -223,6 +223,7 @@ export const asyncRoutes = [
             }
         ]
     },
+    /**
     {
         path: '/error-log',
         component: Layout,
