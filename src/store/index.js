@@ -7,12 +7,14 @@ Vue.use(Vuex);
 import user from './modules/user.js'
 import permission from './modules/permission.js'
 import app from './modules/app.js'
+import tagsView from './modules/tagsView.js'
 
 const store = new Vuex.Store({
     modules: {
         user,
         permission,
-        app
+        app,
+        tagsView
     }
 });
 
